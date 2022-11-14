@@ -13,7 +13,7 @@ Flask-Script==0.6.3
 Flask-Security>=3.0.0
 Flask-WTF>=0.14.2
 Jinja2>=2.10
-SQLAlchemy==1.2.7
+SQLAlchemy==1.2.18
 boto>=2.48.0
 ipaddr==2.2.0
 itsdangerous==0.24
@@ -32,3 +32,4 @@ swag-client>=0.4.1
 idna==2.6
 marshmallow==2.15.0
 flask-marshmallow==0.8.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
